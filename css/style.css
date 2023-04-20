@@ -1,0 +1,60 @@
+/* RESET */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+header {
+    background-color: #0084fd;
+    height: 100px;
+    width: 100%;
+    
+   
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+div.jumbo-l-box {
+
+width: 80%;
+
+height: 700px;
+
+background-color: blueviolet;
+
+margin: 0 auto;
+
+margin-bottom: 5rem;
+margin-top: 5rem;
+
+
+}
+
+div.jumbo-s-box {
+
+    width: 80%;
+
+    height: 500px;
+
+    background-color: aqua;
+    border: solid 10px greenyellow;
+
+    margin: 0 auto;
+
+    margin-bottom: 5rem;
+}
