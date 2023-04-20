@@ -23,26 +23,49 @@ header {
    
 }
 
+nav ul {
+    display: none;
+}
+
+nav button {
+    display: none;
+}
+
+
 nav {
     width: 80%;
     margin: 0 auto;
 }
+
+div i {
+    display: inline-block;
+}
+
 
 
 div.jumbo-l-box {
 
 width: 80%;
 
-height: 700px;
+height: 500px;
 
 background-color: blueviolet;
 
 margin: 0 auto;
 
 margin-bottom: 5rem;
-margin-top: 5rem;
+
+border-radius: 3rem;
+
+border: solid 10px white;
 
 
+
+}
+
+
+section.jumboscreen {
+    margin-top: 4rem;
 }
 
 div.jumbo-s-box {
@@ -52,9 +75,49 @@ div.jumbo-s-box {
     height: 500px;
 
     background-color: aqua;
-    border: solid 10px greenyellow;
+    border: solid 10px white;
 
     margin: 0 auto;
 
     margin-bottom: 5rem;
+
+    border-radius: 3rem;
+}
+
+@media  screen and (min-width:576px) {
+
+    div.jumbo-l-box {
+        width: calc(100% / 3 * 2);
+    }
+    
+    div.jumbo-s-box {
+        width: calc(100% / 3);
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    nav ul {
+        display: flex;
+    }
+
+    nav button {
+        display: inline;
+    }
+     
+    .fa-bars::before, .fa-navicon::before {
+        display: none;
+    }
+  
 }
