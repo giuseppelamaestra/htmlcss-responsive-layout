@@ -109,6 +109,37 @@ div.bigger-box {
     
 }
 
+.card-id {
+    width: 100%;
+    border-radius: 3rem;
+    height: 300px;
+    margin-bottom: 4rem;
+}
+
+div.testimonials-text {
+    width: 100%;
+    height: 200px;
+    background-color: magenta;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.testimonials-img {
+    background-color: red;
+    width: 90%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.quote-box {
+    background-color: greenyellow;
+    width: 90%;
+    height: 40%;
+    margin: 0 auto;
+
+}
+
+
 
 
 
@@ -125,6 +156,21 @@ div.bigger-box {
     section {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .card-id {
+        display: flex;
+    }
+
+    .testimonials-img {
+        height: 100%;
+        width: 50%;
+
+    }
+
+    .quote-box {
+        height: 100%;
+        width: 50%;
     }
 
 
