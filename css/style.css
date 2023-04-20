@@ -31,11 +31,11 @@ nav button {
     display: none;
 }
 
-
-nav {
-    width: 80%;
+.container {
+    max-width: 80%;
     margin: 0 auto;
 }
+
 
 div i {
     display: inline-block;
@@ -84,6 +84,17 @@ div.jumbo-s-box {
     border-radius: 3rem;
 }
 
+
+.purple {
+    background-color: #9792e4;
+}
+
+
+
+
+
+
+
 @media  screen and (min-width:576px) {
 
     div.jumbo-l-box {
@@ -99,10 +110,7 @@ div.jumbo-s-box {
         flex-wrap: wrap;
     }
 
-    .container {
-        max-width: 80%;
-        margin: 0 auto;
-    }
+
 
 }
 
