@@ -139,6 +139,13 @@ div.testimonials-text {
 
 }
 
+div.circle-id-box {
+    height: 300px;
+    width: 100%;
+    background-color: magenta;
+    margin-top: 4rem;
+}
+
 
 
 
@@ -170,6 +177,24 @@ div.testimonials-text {
 
     .quote-box {
         height: 100%;
+        width: 50%;
+    }
+
+    div.jumbo-s-box.col {
+
+        width: calc(100% / 2);
+    }
+
+    section.container.half-box {
+        display: flex;
+    }
+
+    div.circle-id-box {
+
+        width: 50%;
+    }
+
+    div.text.half {
         width: 50%;
     }
 
@@ -211,5 +236,11 @@ div.testimonials-text {
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
+
+   div.jumbo-s-box.col {
+         
+      width: 33%
+
+   }
 
 }
