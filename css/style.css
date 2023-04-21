@@ -155,7 +155,17 @@ div.all-in-one-box {
 }
 
 
+.black {
 
+    background-color: #333333;
+}
+
+div.footer-box {
+    height: 400px;
+    width: 100%;
+    background-color: green;
+    margin-top: 4rem;
+}
 
 
 @media  screen and (min-width:576px) {
