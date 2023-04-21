@@ -17,18 +17,36 @@
 
 header {
     background-color: #0084fd;
-    height: 100px;
+    height: 85px;
     width: 100%;
     
    
 }
 
+nav {
+    padding: 20px;
+    align-items: center;
+    position: relative;
+}
+
 nav ul {
     display: none;
+    list-style-type: none;
+    color: white;
 }
 
 nav button {
     display: none;
+     border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 3rem;
+     
+   
+
 }
 
 .container {
@@ -39,6 +57,19 @@ nav button {
 
 div i {
     display: inline-block;
+}
+
+
+div.button-box {
+    position: absolute;
+    right: 0;
+    align-items: center;
+}
+
+
+
+li {
+    margin-right: 4rem;
 }
 
 
