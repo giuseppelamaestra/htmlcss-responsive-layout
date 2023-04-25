@@ -73,12 +73,17 @@ li {
 }
 
 
+div.phone-container {
+    display: flex;
+    flex-direction: column;
+}
+
 
 div.jumbo-l-box {
 
 width: 100%;
 
-height: 500px;
+padding: 3rem 3rem 0;
 
 background-color: blueviolet;
 
@@ -92,6 +97,10 @@ border: solid 10px white;
 
 
 
+}
+
+div.jumbo-l-box img {
+    width: 100%;
 }
 
 
@@ -247,6 +256,10 @@ div.footer-box {
         width: 50%;
     }
 
+  div.jumbo-l-box img {
+    width: 100%;
+  }
+
 
 
 }
@@ -291,5 +304,15 @@ div.footer-box {
       width: 33%
 
    }
+
+   div.jumbo-l-box {
+    display: flex;
+   }
+
+   div.phone-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+   
 
 }
