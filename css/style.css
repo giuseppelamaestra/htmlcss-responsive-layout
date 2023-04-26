@@ -23,6 +23,10 @@ header {
    
 }
 
+.w-bg {
+    background-color: white;
+}
+
 nav {
     padding: 20px;
     align-items: center;
@@ -59,6 +63,15 @@ div i {
     display: inline-block;
 }
 
+.lb-bg {
+    background-color: #b5ddff;
+}
+
+
+.p-bg {
+    background-color: #9792e4;
+}
+
 
 div.button-box {
     position: absolute;
@@ -85,7 +98,7 @@ width: 100%;
 
 padding: 3rem 3rem 0;
 
-background-color: blueviolet;
+
 
 margin: 0 auto;
 
@@ -114,7 +127,7 @@ div.jumbo-s-box {
 
     height: 500px;
 
-    background-color: aqua;
+  
     border: solid 10px white;
 
     margin: 0 auto;
@@ -123,6 +136,8 @@ div.jumbo-s-box {
 
     border-radius: 3rem;
 }
+
+
 
 
 .purple {
@@ -218,7 +233,7 @@ div.footer-box {
         width: calc(100% / 3);
     }
 
-    section {
+    section.container {
         display: flex;
         flex-wrap: wrap;
     }
@@ -297,6 +312,7 @@ div.footer-box {
         position: relative;
         padding-top: 4rem;
         padding-bottom: 4rem;
+        max-width: 50%;
     }
 
    div.jumbo-s-box.col {
