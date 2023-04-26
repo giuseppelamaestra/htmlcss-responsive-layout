@@ -151,14 +151,14 @@ div.img-box img {
 div.text {
     width: 100%;
     height: 300px;
-    background-color: blue;
+    color: white;
     margin-top: 4rem;
 }
 
 div.bigger-box {
     width: 100%;
     height: 500px;
-    background-color: black;
+    
     margin-top: 4rem;
     border-radius: 3rem; 
     
@@ -194,10 +194,18 @@ div.testimonials-text {
 
 }
 
-div.circle-id-box {
-    height: 300px;
+div.text.half {
+
     width: 100%;
+    height: 500px;
     background-color: magenta;
+
+}
+
+div.circle-id-box {
+    height: 500px;
+    width: 100%;
+    background-color: blueviolet;
     margin-top: 4rem;
 }
 
@@ -216,7 +224,7 @@ div.all-in-one-box {
 }
 
 div.footer-box {
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-color: green;
     margin-top: 4rem;
@@ -273,6 +281,18 @@ div.footer-box {
 
   div.jumbo-l-box img {
     width: 100%;
+  }
+
+  section.container.half-box {
+    display: flex;
+  }
+
+  div.text.half {
+    width: calc(100% / 2);
+  }
+
+  div.circle-id-box {
+    width: calc(100% / 2);
   }
 
 
